@@ -8,10 +8,9 @@
 使用该代码请添加以下引用：
 
 
-谢卓钒 李鼎昭 孙海信 张安民. 面向鸟鸣声识别任务的深度学习技术研究. 生物多样性, DOI: 10.17520/biods.2022308.
+谢卓钒 李鼎昭 孙海信 张安民 (2023) 面向鸟鸣声识别任务的深度学习技术. 生物多样性, 31, 22308. DOI: 10.17520/biods.2022308.
 
-
-Zhuofan Xie Dingzhao Li Haixin Sun Anming Zhang. Research on deep learning techniques for bird chirp recognition tasks. Biodiversity Science, DOI: 10.17520/biods.2022308.
+Zhuofan Xie Dingzhao Li Haixin Sun Anming Zhang (2023) Deep learning techniques for bird chirp recognition tasks. Biodiversity Science, 31, 22308. DOI: 10.17520/biods.2022308.
 
 
 # 代码说明
