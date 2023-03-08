@@ -18,7 +18,8 @@ Xie ZF, Li DZ, Sun HX, Zhang AM (2023)Deep learning techniques for bird chirp re
 该任务融合了CBAM与DenseNet121，使用中心损失函数及鸟声融合特征进行数据预处理、鸟声识别等任务。
 
 
-所使用的鸟声数据均来自于Xeno-Canto网站，由于数据过大无法上传，如有需要可以联系邮箱haloxxie@stu.xmu.edu.cn
-
+所使用的鸟声数据均来自于Xeno-Canto网站，由于数据过大无法上传，如有需要可以通过下方链接下载：
+https://cowtransfer.com/s/c4a1e83d440943
+或访问奶牛快传 cowtransfer.com 输入传输口令 kwyt95 查看
 
 注：原始数据中存在数据不平衡问题，所以我们通过一些数据增强方法对数据做了预处理，但受限于篇幅没有在原文中体现，并且代码中使用的是处理过后的npy文件。
