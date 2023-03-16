@@ -1,25 +1,40 @@
 # 原文说明
-该代码为文章《面向鸟鸣声识别任务的深度学习技术研究》的实现
 
+该代码为文章《面向鸟鸣声识别任务的深度学习技术研究》的实现。该任务融合了CBAM与DenseNet121，使用中心损失函数及鸟声融合特征进行数据预处理、鸟声识别等任务。
 
-文章链接：https://www.biodiversity-science.net/CN/10.17520/biods.2022308
+原文链接：https://www.biodiversity-science.net/CN/10.17520/biods.2022308
 
+# 引用
 
 使用该代码请添加以下引用：
 
+```
 
-谢卓钒, 李鼎昭, 孙海信, 张安民(2023)面向鸟鸣声识别任务的深度学习技术. 生物多样性, 31, 22308. doi: 10.17520/biods.2022308. 
+@article{:22308,
+author = {Zhuofan Xie, Dingzhao Li, Haixin Sun, Anmin Zhang},
+title = {Deep learning techniques for bird chirp recognition task},
+publisher = {Biodiv Sci},
+year = {2023},
+journal = {Biodiversity Science},
+volume = {31},
+number = {1},
+eid = {22308},
+numpages = {},
+pages = {22308},
+keywords = {|bird chirp recognition|feature fusion|self-attentive module|central loss function},
+url = {https://www.biodiversity-science.net/EN/abstract/article_82770.shtml},
+doi = {10.17520/biods.2022308}
+}    
+
+```
 
 
-Xie ZF, Li DZ, Sun HX, Zhang AM (2023)Deep learning techniques for bird chirp recognition task. Biodiversity Science, 31, 22308. doi: 10.17520/biods.2022308. 
+# 数据说明
 
+所使用的鸟声数据均来自于Xeno-Canto网站，由于数据过大无法上传至Github，如有需要可以通过下方链接下载：
 
-# 代码说明
-该任务融合了CBAM与DenseNet121，使用中心损失函数及鸟声融合特征进行数据预处理、鸟声识别等任务。
-
-
-所使用的鸟声数据均来自于Xeno-Canto网站，由于数据过大无法上传，如有需要可以通过下方链接下载：
 https://cowtransfer.com/s/c4a1e83d440943
+
 或访问奶牛快传 cowtransfer.com 输入传输口令 kwyt95 查看
 
 注：原始数据中存在数据不平衡问题，所以我们通过一些数据增强方法对数据做了预处理，但受限于篇幅没有在原文中体现，并且代码中使用的是处理过后的npy文件。
